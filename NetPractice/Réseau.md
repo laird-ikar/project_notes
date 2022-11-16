@@ -8,15 +8,15 @@ La taille d'un réseau est définis par le nombre de 0 de son masque : si un mas
 À partir d'un masque sous forme /X, on peut faire `2 ^ (32 - X)` pour connaître le nombre d'IPs.
 ## Masque A.B.C.D
 À partir d'un masque sous forme A.B.C.D on _apprend_ les 8 correspondances suivantes : 
-0. 0
-1. 128
-2. 192
-3. 224
+8. 0
+7. 128
+6. 192
+5. 224
 4. 240
-5. 248
-6. 252
-7. 254
-8. 255
+3. 248
+2. 252
+1. 254
+0. 255
 Le nombre d'ip est la somme des indices 
 e.g. 255.255.240.0 : `8 + 8 + 4 + 0 = 2 ^ 20` machines.
 ## Arnaque Moldave
