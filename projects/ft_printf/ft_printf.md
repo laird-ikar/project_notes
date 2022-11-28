@@ -5,6 +5,7 @@ Parce que ft_putnbr() et ft_putstr(), c’est pas assez.
 - `gcc`
 - `-Wall -Wextra -Werror`
 # Fonctions autorisées
+- [[libft]]
 - [[malloc]]
 - [[free]]
 - [[write]]
