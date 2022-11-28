@@ -1,35 +1,35 @@
-Détails techniques de [[ft_irc]].
+Détails techniques de [[42/projects/ft_irc/ft_irc]].
 # Compilation
 - `c++`
 - `-Wall -Wextra -Werror` (obligatoire)
 - `-std=c++98` (doit compiler avec)
 # Fonctions autorisées
-- [[Fonctions de C++98]]
+- [[42/holygraph/libs/to_class/Fonctions de C++98]]
 - [[socket]]
 - [[setsockopt]]
 - [[getsockname]]
 - [[getprotobyname]]
 - [[gethostbyname]]
-- [[getaddinfo]]
-- [[freeaddrinfo]]
-- [[bind]]
-- [[connect]]
-- [[listen]]
-- [[accept]]
-- [[htons]]
-- [[htonl]]
-- [[ntohs]]
-- [[ntohl]]
-- [[inet_addr]]
-- [[inet_ntoa]]
-- [[send]]
-- [[recv]]
-- [[signal]]
-- [[lseek]]
-- [[fstat]]
-- [[fcntl]]
-- [[poll]] , [[select]], [[kqueue]], ou [[epoll]]
-n.b.: pas de [[fork]] et exactement 1 [[poll]] (ou equivalent) 
+- [[42/holygraph/libs/to_class/getaddinfo]]
+- [[42/holygraph/libs/to_class/freeaddrinfo]]
+- [[42/holygraph/libs/to_class/bind]]
+- [[42/holygraph/libs/to_class/connect]]
+- [[42/holygraph/libs/to_class/listen]]
+- [[42/holygraph/libs/to_class/accept]]
+- [[42/holygraph/libs/to_class/htons]]
+- [[42/holygraph/libs/to_class/htonl]]
+- [[42/holygraph/libs/to_class/ntohs]]
+- [[42/holygraph/libs/to_class/ntohl]]
+- [[42/holygraph/libs/to_class/inet_addr]]
+- [[42/holygraph/libs/to_class/inet_ntoa]]
+- [[42/holygraph/libs/to_class/send]]
+- [[42/holygraph/libs/to_class/recv]]
+- [[42/holygraph/libs/to_class/signal]]
+- [[42/holygraph/libs/to_class/lseek]]
+- [[42/holygraph/libs/to_class/fstat]]
+- [[42/holygraph/libs/to_class/fcntl]]
+- [[42/holygraph/libs/to_class/poll]] , [[42/holygraph/libs/to_class/select]], [[42/holygraph/libs/to_class/kqueue]], ou [[42/holygraph/libs/to_class/epoll]]
+n.b.: pas de [[42/holygraph/libs/to_class/fork]] et exactement 1 [[42/holygraph/libs/to_class/poll]] (ou equivalent) 
 # Execution
 `./ircserv <port> <password>` 
 - `<port>`: numéro du port sur lequel on accepte les connexions
@@ -43,17 +43,17 @@ n.b.: pas de [[fork]] et exactement 1 [[poll]] (ou equivalent)
 - Définir un client IRC comme référence (il sera utiliser en évaluation)
 - Utilisation avec notre serveur ≈ utilisation avec un vrai serveur. Fonctionnalitées obligatoires :
 	- S'authentifier
-	- [[nickname]]
-	- [[username]]
-	- rejoindre [[channel]]
+	- [[42/projects/ft_irc/nickname]]
+	- [[42/projects/ft_irc/username]]
+	- rejoindre [[42/projects/ft_irc/channel]]
 	- PM
-	- tout message envoyé à un [[channel]] doit être envoyer à tout les clients qui ont rejoint ce channel
-	- avoir des [[operators]] et des utilisateurs basiques
-	- commandes spécifiques aux [[operators]]
+	- tout message envoyé à un [[42/projects/ft_irc/channel]] doit être envoyer à tout les clients qui ont rejoint ce channel
+	- avoir des [[42/projects/ft_irc/operators]] et des utilisateurs basiques
+	- commandes spécifiques aux [[42/projects/ft_irc/operators]]
 - utiliser des descripteurs de fichier en mode non bloquant
 	- mais **uniquement** avec ces flags : `fcntl(fd, F_SETFL, O_NONBLOCK);` 
 - traiter absolument tout les problemes potentiels
-	- [[Tests#nc sujet|test]] 
+	- [[42/projects/ft_irc/Tests#nc sujet|test]] 
 # Bonus
 - envoie de fichier
 - bot

@@ -1,5 +1,5 @@
-Résumé des infos à savoir pour [[NetPractice]].
+Résumé des infos à savoir pour [[42/projects/NetPractice/NetPractice]].
 
-[[Réseau Reservés]]
-[[Réseau]]
-[[Différenciation des réseaux]]
+[[42/projects/NetPractice/Réseau Reservés]]
+[[42/projects/NetPractice/Réseau]]
+[[42/projects/NetPractice/Différenciation des réseaux]]
