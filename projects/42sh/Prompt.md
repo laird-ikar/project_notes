@@ -1,5 +1,5 @@
 #ft
-Pour mon [[42/projects/42sh/42sh]], et de manière générale, je veux un prompt qui suive ce schéma
+Pour mon [[42/holygraph/projects/42sh/42sh]], et de manière générale, je veux un prompt qui suive ce schéma
 ```
 ┌(user@host)─[pwdFromHome]
 ├?  returnValue
