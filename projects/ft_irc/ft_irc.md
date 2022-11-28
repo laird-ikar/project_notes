@@ -22,7 +22,7 @@ genre de chose.
 - [[getsockname]]
 - [[getprotobyname]]
 - [[gethostbyname]]
-- [[getaddinfo]]
+- [[getaddrinfo]]
 - [[freeaddrinfo]]
 - [[bind]]
 - [[connect]]
