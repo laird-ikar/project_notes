@@ -6,7 +6,7 @@ C'est à dire que `ipA & maskA ≠ ipB & maskB`
 i.e.
 Si A a l'addresse 45.187.30.6/26 et qu'elle veut communiquer avec une machine B qui ne fait pas parti de son réseau local, il faut **impérativement** que B ne soit **pas** entre 45.187.30.0 et 45.187.30.63.
 
-## Concretement pour l'exos 7
+## Concrètement pour l'exo 8
 ![[net practice 8.png]]
 Internet veut aller pecho du 
 
