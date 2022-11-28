@@ -1,5 +1,5 @@
-Résumé des infos à savoir pour [[42/holygraph/projects/NetPractice/NetPractice]].
+Résumé des infos à savoir pour [[NetPractice]].
 
-[[42/holygraph/projects/NetPractice/Réseau Reservés]]
-[[42/holygraph/projects/NetPractice/Réseau]]
-[[42/holygraph/projects/NetPractice/Différenciation des réseaux]]
+[[Réseau Reservés]]
+[[Réseau]]
+[[Différenciation des réseaux]]
