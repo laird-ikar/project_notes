@@ -13,3 +13,13 @@ Parce que ft_putnbr() et ft_putstr(), c’est pas assez.
 - [[va_arg]]
 - [[va_copy]]
 - [[va_end]]
+# Processus de pensée 
+Vu que je veux faire les bonus, va falloir parser.
+Heureusement, j'ai fait minishell, donc on va pouvoir trouver un peu d'inspiration.
+La premiére etape est de decouper notre string en modules (en fonction des flags)
+
+Puis on parse tout les flags dans le string qu'ils sont censé être.
+
+On recole tout.
+On print et on return.
+And voila.
