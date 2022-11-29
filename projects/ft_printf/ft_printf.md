@@ -19,6 +19,7 @@ Heureusement, j'ai fait minishell, donc on va pouvoir trouver un peu d'inspirati
 La premiére etape est de decouper notre string en modules (en fonction des flags)
 
 Puis on parse tout les flags dans le string qu'ils sont censé être.
+C'est la partie dure, on va passer par une [[Structure t_flag]]
 
 On recole tout.
 On print et on return.
