@@ -20,3 +20,16 @@ struct hostent {
 	char **h_addr_list;       /* list of addresses */
 };
 ```
+## struct addrinfo
+```C
+struct addrinfo {
+    int _ai_flags_;
+    int _ai_family_;
+    int _ai_socktype_;
+    int _ai_protocol_;
+    size_t _ai_addrlen_;
+    char * _ai_canonname_;
+    struct sockaddr * _ai_addr_;
+    struct addrinfo * _ai_next_;
+};
+```
