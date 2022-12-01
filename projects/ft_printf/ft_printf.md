@@ -24,3 +24,5 @@ C'est la partie dure, on va passer par une [[Structure t_flag]]
 On recole tout.
 On print et on return.
 And voila.
+
+Bon va falloir passer par un buffer (i.e. char* + size_t) pour pouvoir print les characteres speciaux...
