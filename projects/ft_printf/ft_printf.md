@@ -26,3 +26,7 @@ On print et on return.
 And voila.
 
 Bon va falloir passer par un buffer (i.e. char* + size_t) pour pouvoir print les characteres speciaux...
+
+Vraiment quel enfer le padding.
+
+[]
