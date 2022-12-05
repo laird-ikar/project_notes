@@ -44,4 +44,6 @@ Si message vide: ignore et tais toi.
 <key_name>      ::= <non-empty sequence of ascii letters, digits, hyphens ('-')>
 <escaped_value> ::= <sequence of zero or more utf8 characters except NUL, CR, LF, semicolon (`;`) and SPACE>
 <vendor>        ::= <host>
+<SPACE>         ::= [' ']+
 ```
+Memoire allouée: 512 bytes + 4096 bytes pour les tags.
