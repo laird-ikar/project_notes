@@ -54,6 +54,6 @@ e.g.
 	- `@url=;netsplit=tur,ty` => ``{"url": "", "netsplit": "tur,ty"}`
 
 La source c'etait appele le prefix avant, ca a cette tête là :
-`servername/(nickname ["!" user] ["@" host])`
+`servername / (nickname ["!" user] ["@" host])`
 client MUST NOT include source
 server MAY include source
