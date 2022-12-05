@@ -53,7 +53,7 @@ e.g.
 	- `@id=123AB;rose` => `{"id": "123AB", "rose":""}`
 	- `@url=;netsplit=tur,ty` => ``{"url": "", "netsplit": "tur,ty"}`
 
-La source c'etait appele le prefix avant, ca a cette la :
+La source c'etait appele le prefix avant, ca a cette tête là :
 `servername/(nickname ["!" user] ["@" host])`
 client MUST NOT include source
 server MAY include source
