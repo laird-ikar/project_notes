@@ -36,7 +36,7 @@ Seveur doivent preciser le casemaping utilisé dans `RPL_ISUPPORT` qui est envoy
 Finisse par `\r\n`.
 Si message vide: ignore et tais toi.
 ```
-<message>       ::= ['@' <tags> <SPACE>] [':' <prefix> <SPACE> ] <command> [params] <crlf>
+<message>       ::= ['@' <tags> <SPACE>] [':' <source> <SPACE> ] <command> [params] <crlf>
 <tags>          ::= <tag> [';' <tag>]*
 <tag>           ::= <key> ['=' <escaped_value>]
 <key>           ::= [ <client_prefix> ] [ <vendor> '/' ] <key_name>
@@ -47,3 +47,13 @@ Si message vide: ignore et tais toi.
 <SPACE>         ::= [' ']+
 ```
 Memoire allouée: 512 bytes + 4096 bytes pour les tags.
+
+e.g.
+- tags:
+	- `@id=123AB;rose` => `{"id": "123AB", "rose":""}`
+	- `@url=;netsplit=tur,ty` => ``{"url": "", "netsplit": "tur,ty"}`
+
+La source c'etait appele le prefix avant, ca a cette la :
+`servername/(nickname ["!" user] ["@" host])`
+client MUST NOT include source
+server MAY include source
