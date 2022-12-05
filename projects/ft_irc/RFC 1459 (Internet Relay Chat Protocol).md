@@ -57,3 +57,5 @@ La source c'etait appele le prefix avant, ca a cette tête là :
 `servername / (nickname ["!" user] ["@" host])`
 client MUST NOT include source
 server MAY include source
+
+La [[comande]] c'est la partie interressante du message. 
