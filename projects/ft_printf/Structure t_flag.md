@@ -17,4 +17,4 @@ nombre
 Definis la precision du champ (-42 si indefinis)
 # sign 
 initialisee a la lecture de la data
-definis le signe du nombre (-42 si indefinis)
+definis le signe du nombre (0 si indefinis)
