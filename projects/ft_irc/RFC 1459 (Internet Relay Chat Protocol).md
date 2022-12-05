@@ -36,4 +36,4 @@ Seveur doivent preciser le casemaping utilisé dans `RPL_ISUPPORT` qui est envoy
 Finisse par `\r\n`.
 Si message vide: ignore et tais toi.
 
-`[][] <> <> <>``
+`[][] <> <> <>`
