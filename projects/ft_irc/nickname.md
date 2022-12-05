@@ -1,0 +1,2 @@
+none empty strings 
+- 
