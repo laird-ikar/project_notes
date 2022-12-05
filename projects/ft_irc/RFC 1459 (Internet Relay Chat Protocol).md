@@ -18,3 +18,20 @@ ca peut varier lol
 kick/ban
 ## channels
 [[channel]] 
+# Setup
+port 6667 pour le plain text
+port 6697 pour le TLS
+
+# Client-to-Server
+Ils communiquent par des string de bytes separés par des `\n` ou `\r`.
+Les messages peuvent etre envoyé n'importe quand des deux cotes. 
+Peut generer 0 ou plus de reponses.
+
+UTF-8.
+
+Noms des entités (client, serveur, channels) sont casemap (pas sensibles a la case);
+Seveur doivent preciser le casemaping utilisé dans `RPL_ISUPPORT` qui est envoyé quand ça se  connecte.
+
+## Format des messages
+Finisse par `\r\n`.
+Si message vide: ignore et tais toi.

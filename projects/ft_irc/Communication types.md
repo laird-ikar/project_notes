@@ -14,3 +14,4 @@ Tu fais une liste de user et le serveur envoie une copie a toute les personnes d
 C'est tout cassé faut pas faire ça.
 # One-to-all
 broadcast: t'envoie a tout le monde
+
