@@ -35,5 +35,13 @@ Seveur doivent preciser le casemaping utilisé dans `RPL_ISUPPORT` qui est envoy
 ## Format des messages
 Finisse par `\r\n`.
 Si message vide: ignore et tais toi.
-
-`[][] <> <> <>`
+```
+<message>       ::= ['@' <tags> <SPACE>] [':' <prefix> <SPACE> ] <command> [params] <crlf>
+<tags>          ::= <tag> [';' <tag>]*
+<tag>           ::= <key> ['=' <escaped_value>]
+<key>           ::= [ <client_prefix> ] [ <vendor> '/' ] <key_name>
+<client_prefix> ::= '+'
+<key_name>      ::= <non-empty sequence of ascii letters, digits, hyphens ('-')>
+<escaped_value> ::= <sequence of zero or more utf8 characters except NUL, CR, LF, semicolon (`;`) and SPACE>
+<vendor>        ::= <host>
+```
