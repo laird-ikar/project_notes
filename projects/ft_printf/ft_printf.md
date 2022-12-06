@@ -31,3 +31,6 @@ Vraiment quel enfer le padding.
 
 `[normal padding spaces][sign symbole][0 padding][mainstr][left padding space]``
 
+## Implementation des floats (pour plus tard)
+
+symbole de signe + partie entiere + symbole separation + partie decimale
