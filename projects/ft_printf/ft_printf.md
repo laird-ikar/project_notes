@@ -30,3 +30,4 @@ Bon va falloir passer par un buffer (i.e. char* + size_t) pour pouvoir print les
 Vraiment quel enfer le padding.
 
 `[normal padding spaces][sign symbole][0 padding][mainstr][left padding space]``
+
