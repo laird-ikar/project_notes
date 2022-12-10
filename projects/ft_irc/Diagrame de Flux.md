@@ -1,2 +1,2 @@
 Diagrame pour [[ft_irc]].
-![[assets/IMG_8806.png]]
+![[IMG_8806 1.png]]
