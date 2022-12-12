@@ -13,4 +13,6 @@ La fonction est utilisée pour récupérer une liste d'IP et de ports pour `host
 
 `hostname` et `servname` sont soit un `char *` nul-terminé ou `NULL`.
 `hostname` accepte soit un nom d'hôte valide ou une addresse IP (v4 ou v6).
-`servname` accepte soit 
+`servname` accepte soit un numéro de port ou un nom de service (listé par [[services]]).
+Au moins un des deux doit être non-null.
+
