@@ -18,4 +18,5 @@ Si tout ce passe bien, le serveur MUST renvoyer, dans cet ordre:
 3. [[RPL_CREATED]] (003)
 4. [[RPL_MYINFO]] (004)
 5. at leat one [[RPL_ISUPPORT]] (005)
-Puis il SHOULD répondre comme si il avait reçu [[LUSERS]] et retourner les numerics appropriées
+Puis il SHOULD répondre comme si il avait reçu [[LUSERS]] et retourner les numerics appropriées.
+Si le client a des client mods automatiques quand il rejoint le network, le serveur SHOULD envoyer [[RPLY]]
