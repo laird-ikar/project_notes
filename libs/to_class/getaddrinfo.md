@@ -1,4 +1,4 @@
-Librairy: [[socket.h|<sys/socket.h>]]
+Librairy: [[socket.h|<sys/socket.h>]], [[types.h|<sys/types.h>]], [[netdb.h|<netdb.h>]]
 Prototype: 
 ```C
 int socket(int domain, int type, int protocol);
