@@ -11,3 +11,5 @@ Tant que la registration n'est pas complete, le serveur MUST n'accepter que cert
 5. [[SASL]]
 6. CAP END
 	- end procedure de register 
+
+Si 
