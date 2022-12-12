@@ -8,7 +8,4 @@ int connect(
 	);
 ```
 # Description
-`getsockname()` renvoie l'addresse courante du `socket` spécifié.
-`address_len` doit représenté la mémoire allouée à `address`. Au retour, elle contiendra la taille de l'addresse retournée (en byte).
-`address` est de type [[socket.h#struct sockaddr|struct sockaddr]].
-Elle renvoie `0` en cas de succès, `-1` en cas d'erreur.
+`connect()` 
