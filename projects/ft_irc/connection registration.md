@@ -12,4 +12,3 @@ Tant que la registration n'est pas complete, le serveur MUST n'accepter que cert
 6. CAP END
 	- end procedure de register 
 
-Si 
