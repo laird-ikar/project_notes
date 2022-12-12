@@ -9,4 +9,4 @@ int getaddrinfo(
 	);
 ```
 # Description
-La fonction est utilisée pour récupérer une liste d'IP et de ports pour `hostname` et `servname`
+La fonction est utilisée pour récupérer une liste d'IP et de ports pour `hostname` et `servname`. C'est un remplaçant plus flexible à [[gethostbyname]] et [[getservbyname]].
