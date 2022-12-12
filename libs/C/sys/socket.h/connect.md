@@ -8,4 +8,4 @@ int connect(
 	);
 ```
 # Description
-`connect()` 
+Si `socket` est de type `SOCK_DGRAM` 
