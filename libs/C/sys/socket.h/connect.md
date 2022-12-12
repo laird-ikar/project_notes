@@ -4,7 +4,8 @@ Prototype:
 int connect(
 	int socket,
 	const struct sockaddr *address, 
-				socklen_t *restrict address_len);
+	socklen_t *restrict address_len
+	);
 ```
 # Description
 `getsockname()` renvoie l'addresse courante du `socket` spécifié.
