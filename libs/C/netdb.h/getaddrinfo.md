@@ -21,3 +21,4 @@ Elle sert à donner des indices sur le type de socket supporté et que l'on souh
 
 `*res` est un pointeur vers le premier element d'une liste chainée de [[netdb.h#struct addrinfo|addrinfo]]. 
 Elle peut être parcourue via `ai_next`.
+`ai_family`, `ai_socktype` et `ai_protocol` sont remplie avec des valeurs valides pour appeler [[socket]].
