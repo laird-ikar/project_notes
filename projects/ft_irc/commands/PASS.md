@@ -4,4 +4,5 @@ parameters: <password>
 ```
 Si il est envoyé il doit être set avant [[NICK]] et [[USER]].
 `<password>` MUST correspondre avec celui defini dans la config du server.
-Si t,em
+Si t'en envoies plusieurs, on prend en compte que le dernier.
+Si ca match pas, le serveur SHOULD envoyer [[ERR_PASSWDMISMATCH]] (464) et MAY 
