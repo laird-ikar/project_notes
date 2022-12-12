@@ -11,4 +11,6 @@ int getaddrinfo(
 # Description
 La fonction est utilisée pour récupérer une liste d'IP et de ports pour `hostname` et `servname`. C'est un remplaçant plus flexible à [[gethostbyname]] et [[getservbyname]].
 
-`hostname` et `servname` sont soit un `char *` nul-terminé ou `N`
+`hostname` et `servname` sont soit un `char *` nul-terminé ou `NULL`.
+`hostname` accepte soit un nom d'hôte valide ou une addresse IP (v4 ou v6).
+`servname` accepte soit 
