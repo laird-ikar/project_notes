@@ -8,4 +8,4 @@ int connect(
 	);
 ```
 # Description
-Si `socket` est de type `SOCK_DGRAM` 
+Si `socket` est de type `SOCK_DGRAM` `connect` associe le `socket` à `address`. Les datagrams sont envoyés dessus et c'est la seule addresse de la
