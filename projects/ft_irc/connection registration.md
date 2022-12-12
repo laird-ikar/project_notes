@@ -23,4 +23,4 @@ Si le client a des client mods automatiques quand il rejoint le network, le serv
 Puis il MUST répondre comme si le client avait envoyé [[MOTD]] command (message of the day).
 e.g. renvoyer le message of the day numerics ou [[ERR_NOMOTD]] (422).
 
-Le premier parametre de [[RPL_WELCOME]] est le nickname assigné par le reseau au client. Les prochains changements de nickname ([[NICK]]) seront communiquer par le serveur avec un [[N]]
+Le premier parametre de [[RPL_WELCOME]] est le nickname assigné par le reseau au client. Les prochains changements de nickname seront communiqués par le serveur avec un [[NICK]].
