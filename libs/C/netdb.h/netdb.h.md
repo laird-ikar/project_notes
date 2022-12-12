@@ -1,6 +1,7 @@
 Une librarie C qui contient:
 - [[getprotobyname]]
 - [[gethostbyname]]
+- [[getaddrinfo]]
 # Types
 ## struct protoent
 ```C

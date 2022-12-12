@@ -2,6 +2,7 @@ Une librarie C qui contient:
 - [[socket]]
 - [[setsockopt]]
 - [[getsockname]]
+- [[getaddrinfo]]
 
 # Domain
 Sous macOS, la librairie supporte:
