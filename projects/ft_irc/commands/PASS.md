@@ -9,6 +9,6 @@ Si ca match pas, le serveur SHOULD envoyer [[ERR_PASSWDMISMATCH]] (464) et MAY f
 
 Numeric replies:
 
--   [`ERR_NEEDMOREPARAMS`](https://modern.ircdocs.horse/#errneedmoreparams-461) `(461)`
--   [`ERR_ALREADYREGISTERED`](https://modern.ircdocs.horse/#erralreadyregistered-462) `(462)`
--   [`ERR_PASSWDMISMATCH`](https://modern.ircdocs.horse/#errpasswdmismatch-464) `(464)`
+-   [[ERR_NEEDMOREPARAMS]] (461)
+-   [[ERR_ALREADYREGISTERED]] (462)
+-   [`ERR_PASSWDMISMATCH`] (464)
