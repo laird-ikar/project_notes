@@ -12,3 +12,8 @@ Numeric replies:
 -   [`ERR_NEEDMOREPARAMS`](https://modern.ircdocs.horse/#errneedmoreparams-461) `(461)`
 -   [`ERR_ALREADYREGISTERED`](https://modern.ircdocs.horse/#erralreadyregistered-462) `(462)`
 -   [`ERR_PASSWDMISMATCH`](https://modern.ircdocs.horse/#errpasswdmismatch-464) `(464)`
+
+Exemple :
+```
+PASS secretpasswordhere
+```
