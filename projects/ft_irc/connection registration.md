@@ -12,4 +12,6 @@ Tant que la registration n'est pas complete, le serveur MUST n'accepter que cert
 6. CAP END
 	- end procedure de register 
 
-Si tout ce passe bien, le 
+Si tout ce passe bien, le serveur MUST renvoyer, dans cet ordre:
+1. [[RPL_WELCOME]] (001)
+2. [[RPL_YOURHOST]] (002)
