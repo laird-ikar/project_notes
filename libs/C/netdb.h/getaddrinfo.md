@@ -17,4 +17,6 @@ La fonction est utilisée pour récupérer une liste d'IP et de ports pour `host
 Au moins un des deux doit être non-null.
 
 `hints` est un pointeur optionel vers une structure [[netdb.h#struct addrinfo|addrinfo]].
-Elle sert à donner des indices sur le type de socket 
+Elle sert à donner des indices sur le type de socket supporté et que l'on souhaite utiliser.
+
+`res` 
