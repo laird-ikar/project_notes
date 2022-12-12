@@ -15,3 +15,6 @@ Tant que la registration n'est pas complete, le serveur MUST n'accepter que cert
 Si tout ce passe bien, le serveur MUST renvoyer, dans cet ordre:
 1. [[RPL_WELCOME]] (001)
 2. [[RPL_YOURHOST]] (002)
+3. [[RPL_CREATED]] (003)
+4. [[RPL_MYINFO]] (004)
+5. at leat one [[RPL_ISUPPORT]] (005)
