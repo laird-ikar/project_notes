@@ -16,3 +16,5 @@ La fonction est utilisée pour récupérer une liste d'IP et de ports pour `host
 `servname` accepte soit un numéro de port ou un nom de service (listé par [[services]]).
 Au moins un des deux doit être non-null.
 
+`hints` est un pointeur optionel vers une structure [[netdb.h#struct addrinfo|addrinfo]].
+Elle sert à donner des indices sur le type de socket 
