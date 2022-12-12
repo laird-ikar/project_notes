@@ -21,3 +21,6 @@ Si tout ce passe bien, le serveur MUST renvoyer, dans cet ordre:
 Puis il SHOULD répondre comme si il avait reçu [[LUSERS]] et retourner les numerics appropriées.
 Si le client a des client mods automatiques quand il rejoint le network, le serveur SHOULD envoyer [[RPL_UMODEIS]] (221).
 Puis il MUST répondre comme si le client avait envoyé [[MOTD]] command (message of the day).
+e.g. renvoyer le message of the day numerics ou [[ERR_NOMOTD]] (422).
+
+Le premier parametre de [[RPL_WELCOME]] est le nickname assigne
