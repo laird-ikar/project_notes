@@ -4,4 +4,4 @@ Prototype:
 void freeaddrinfo(struct addrinfo *ai);
 ```
 # Description
-Libère la 
+Libère la [[netdb.h#struct addrinfo|addrinfo]] allouée par un [[getaddrinfo]] réussis.
