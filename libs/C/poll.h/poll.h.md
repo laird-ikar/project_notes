@@ -1,0 +1,7 @@
+# Fonctions
+- [[poll]]
+
+# Structure
+```C
+
+```
