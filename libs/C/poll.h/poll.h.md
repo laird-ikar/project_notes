@@ -23,9 +23,13 @@
   The file descriptor is not open.  This flag is output only, and ignored if present in the input events bitmask.
 - `POLLOUT`:
   Normal data may be written without blocking. This is equivalent to `POLLWRNORM`.
-- POLLPRI        High priority data may be read without blocking.
-- POLLRDBAND     Priority data may be read without blocking.
-- POLLRDNORM     Normal data may be read without blocking.
-- POLLWRBAND     Priority data may be written without blocking.
-
-     POLLWRNORM     Normal data may be written without blocking.
+- `POLLPRI`:
+  High priority data may be read without blocking.
+- `POLLRDBAND`:
+  Priority data may be read without blocking.
+- `POLLRDNORM`:
+  Normal data may be read without blocking.
+- `POLLWRBAND`:
+  Priority data may be written without blocking.
+- `POLLWRNORM`:
+  Normal data may be written without blocking.
