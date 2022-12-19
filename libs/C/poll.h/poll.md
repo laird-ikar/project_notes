@@ -4,4 +4,4 @@ Librairy: [[poll.h|<poll.h>]]
 int poll(struct pollfd fds[], nfds_t nfds, int timeout);
 ```
 # Description
-Check tout les fd de la [[poll.h#pollfd|pollfd]] pour les [[poll.h#events|events]] 
+Check tout les fd de la [[poll.h#pollfd|pollfd]] en fonctions des [[poll.h#flags|flags]] inscrit dedans et retourne le nombre 
