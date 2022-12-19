@@ -1,7 +1,7 @@
 Librairy: [[poll.h|<poll.h>]]
 # Prototype: 
 ```C
-int poll(struct pollfd)
+int poll(struct pollfd fds[], nfds_t nfds, int timeout);
 ```
 # Description
-Libère la [[netdb.h#struct addrinfo|addrinfo]] allouée par un [[getaddrinfo]] réussis.
+Check tout les fd 
