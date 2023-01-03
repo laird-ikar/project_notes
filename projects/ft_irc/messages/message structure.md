@@ -1,5 +1,3 @@
-Finisse par `\r\n`.
-Si message vide: ignore et tais toi.
 ```
 <message>       ::= ['@' <tags> <SPACE>] [':' <source> <SPACE> ] <command> [params] <crlf>
 <tags>          ::= <tag> [';' <tag>]*
