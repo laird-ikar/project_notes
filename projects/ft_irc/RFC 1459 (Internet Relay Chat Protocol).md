@@ -31,31 +31,3 @@ UTF-8.
 
 Noms des entités (client, serveur, channels) sont casemap (pas sensibles a la case);
 Seveur doivent preciser le casemaping utilisé dans `RPL_ISUPPORT` qui est envoyé quand ça se  connecte.
-
-## Format des messages
-Finisse par `\r\n`.
-Si message vide: ignore et tais toi.
-```
-<message>       ::= ['@' <tags> <SPACE>] [':' <source> <SPACE> ] <command> [params] <crlf>
-<tags>          ::= <tag> [';' <tag>]*
-<tag>           ::= <key> ['=' <escaped_value>]
-<key>           ::= [ <client_prefix> ] [ <vendor> '/' ] <key_name>
-<client_prefix> ::= '+'
-<key_name>      ::= <non-empty sequence of ascii letters, digits, hyphens ('-')>
-<escaped_value> ::= <sequence of zero or more utf8 characters except NUL, CR, LF, semicolon (`;`) and SPACE>
-<vendor>        ::= <host>
-<SPACE>         ::= [' ']+
-```
-Memoire allouée: 512 bytes + 4096 bytes pour les tags.
-
-e.g.
-- tags:
-	- `@id=123AB;rose` => `{"id": "123AB", "rose":""}`
-	- `@url=;netsplit=tur,ty` => ``{"url": "", "netsplit": "tur,ty"}`
-
-La source c'etait appele le prefix avant, ca a cette tête là :
-`servername / (nickname ["!" user] ["@" host])`
-client MUST NOT include source
-server MAY include source
-
-La [[command]] c'est la partie interressante du message. 
