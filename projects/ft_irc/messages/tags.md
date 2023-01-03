@@ -9,6 +9,8 @@
 ```
 
 Si le message contient des tags, ils seront interprétés comme une suite de keys et values.
+Une clé peut être utilisée au plus 1 fois par message.
+
 
 e.g.
 	- `@id=123AB;rose` => `{"id": "123AB", "rose":""}`
