@@ -11,11 +11,6 @@
 ```
 Memoire allouée: 512 bytes + 4096 bytes pour les tags.
 
-e.g.
-- tags:
-	- `@id=123AB;rose` => `{"id": "123AB", "rose":""}`
-	- `@url=;netsplit=tur,ty` => ``{"url": "", "netsplit": "tur,ty"}`
-
 La source c'etait appele le prefix avant, ca a cette tête là :
 `servername / (nickname ["!" user] ["@" host])`
 client MUST NOT include source
