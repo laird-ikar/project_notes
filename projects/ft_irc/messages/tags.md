@@ -29,3 +29,7 @@ Si jamais il y a un `\` seul à la fin de l'escaped ou si il y a un `\` suivi d'
 e.g.:
 - `test\` doit être unescaped `test`
 - `\b` doit être unescaped `b`
+
+# Capabilities
+La gestion des tags est activée avec une negociation de capabilité.
+Si elle est activée, la gestion doit être complète.
