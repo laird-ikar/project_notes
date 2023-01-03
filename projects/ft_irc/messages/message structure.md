@@ -21,4 +21,5 @@ La source c'etait appele le prefix avant, ca a cette tête là :
 client MUST NOT include source
 server MAY include source
 
+Les [[tags]] 
 La [[command]] c'est la partie interressante du message. 
