@@ -14,6 +14,9 @@ Une clé peut être utilisée au plus 1 fois par message, mais si jamais on reç
 # Escaping values
 | Character  | Sequence in `<escaped_value>`      |
 | ---------- | ------------------------------ |
+| ; (semicolon) | `\:` |
+| SPACE | `\s` |
+| \ | `\\` |
 
 
 
