@@ -12,7 +12,9 @@ Si le message contient des tags, ils seront interprétés comme une suite de key
 Une clé peut être utilisée au plus 1 fois par message, mais si jamais on reçoit plus d'une fois une clé on SHOULD prendre en compte la derniere.
 
 # Escaping values
-| 
+| Character  | Sequence in `<escaped_value>`      |
+| ---------- | ------------------------------ |
+
 
 
 e.g.
