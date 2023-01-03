@@ -8,4 +8,4 @@
 <vendor>        ::= <host>
 ```
 
-Si le message contient des tags, ils seront
+Si le message contient des tags, 
