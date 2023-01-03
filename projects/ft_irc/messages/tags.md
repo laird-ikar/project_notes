@@ -9,6 +9,11 @@
 ```
 
 Si le message contient des tags, ils seront interprétés comme une suite de keys et values.
+
+e.g.
+	- `@id=123AB;rose` => `{"id": "123AB", "rose":""}`
+	- `@url=;netsplit=tur,ty` => ``{"url": "", "netsplit": "tur,ty"}`
+
 Une clé peut être utilisée au plus 1 fois par message, mais si jamais on reçoit plus d'une fois une clé on SHOULD prendre en compte la derniere.
 
 # Escaping values
@@ -19,9 +24,6 @@ Une clé peut être utilisée au plus 1 fois par message, mais si jamais on reç
 | `\`             | `\\`                             |
 | CR           | `\r`                              |
 | LF           | `\n`                              |
-| all others   | the character itself |
+| all others   | the character itself            |
 
-
-e.g.
-	- `@id=123AB;rose` => `{"id": "123AB", "rose":""}`
-	- `@url=;netsplit=tur,ty` => ``{"url": "", "netsplit": "tur,ty"}`
+Si jamais il y a un `\` seul à la fin de l'ex
