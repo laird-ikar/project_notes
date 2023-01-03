@@ -26,4 +26,6 @@ Une clé peut être utilisée au plus 1 fois par message, mais si jamais on reç
 | LF           | `\n`                              |
 | all others   | the character itself            |
 
-Si jamais il y a un `\` seul à la fin de l'ex
+Si jamais il y a un `\` seul à la fin de l'escaped ou si il y a un `\` suivi d'un charactere non valide, on SHOULD ignorer.
+e.g.
+- 
