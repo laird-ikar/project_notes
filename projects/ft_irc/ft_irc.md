@@ -69,3 +69,13 @@ n.b.: pas de [[fork]] et exactement 1 [[poll]] (ou equivalent)
 # Bonus
 - envoie de fichier
 - bot
+
+
+
+
+Commandes a faire
+
+QUIT
+PING
+PONG
+JOIN
