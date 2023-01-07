@@ -1,3 +1,4 @@
+([[ft_irc]])
 Tant que la registration n'est pas complete, le serveur MUST n'accepter que certaines commandes.
 
 1. [[CAP]] LS 302
